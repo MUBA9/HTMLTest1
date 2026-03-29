@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+<style> 
+.weather-body {
+display: flex;    
+justify-content: center;
+align-items: center;
+flex-direction: column;
+height: 100vh;
+font-family: Arial, Helvetica, sans-serif
+}
+
+.weather-page {
+background-color: white;
+border: 2px solid grey;
+padding: 10px;
+margin: 10px;
+height: 800px;
+width: 500px;
+}
+
+.weather-manchester {
+border: 2px solid lightgray; background-color: lightgray;
+border-radius: 5px;
+padding: 2px;
+margin-bottom: 10px;
+}
+
+.weather-edinburgh {
+border: 2px solid lightgray; background-color: lightgray;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+
+.weather-bristol {
+border: 2px solid lightgray; background-color: lightgray;
+border-radius: 5px;
+margin-bottom: 10px;   
+}
+
+.weather-york {
+border: 2px solid lightgray; background-color: lightgray;
+border-radius: 5px; 
+margin-bottom: 20px;  
+}
+
+.info-button {
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+background-color: navy;
+color: white;
+height: 90px;
+
+}
+
+    </style> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Page</title>
+</head>
+
+<body style="background-color:powderblue;">
+
+
+<div class="weather-body">
+        <div class="weather-page">
+        <h3>Other Cities</h3>
+
+        <div class="weather-manchester">
+            <img src="./img/mooncloud.png" width="50px" height="50px">
+            <h3>Manchester</h3>
+            <p1>Cloudy. High:11° Low:18°</p1>
+        </div>
+
+        <div class="weather-edinburgh">
+            <img src="./img/raincloud.png" width="50px" height="50px">
+            <h3>Edinburgh</h3>
+            <p1>Rain. High:8° Low:12°</p1>
+        </div>
+
+        <div class="weather-bristol">
+            <img src="./img/raincloud.png" width="50px" height="50px">
+            <h3>Bristol</h3>
+            <p1>Snow. High:2° Low:8°</p1>
+        </div>
+
+        <div class="weather-york">
+            <img src="./img/mooncloud.png" width="50px" height="50px">
+            <h3>York</h3>
+            <p1>Cloudy. High:10° Low:18°</p1>
+        </div>
+
+        <div class="info-button">
+            <button type="button">See More</button>
+        </div>
+</div>
+    </div>
+</body>
+</html>
